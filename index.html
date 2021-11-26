@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Chúc mừng sinh nhật phiên bản Dev Web - Tunna Dương</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="show-content"></div>
+    <div class="main_container">
+        <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#modalHoiNgaySinh">Click vào đây đi :3</button>
+    </div>
+    <div class="modal" id="modalHoiNgaySinh">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Nhập ngày sinh của người bạn yêu quý...</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <img id="figureImage" src="assets/images/love.gif" width="250">
+                    </center>
+                    <input type="text" id="nhapngaysinh" class="form-control" placeholder="Viết vào đây nhé! VD: dd/mm/yyyy">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onclick="checkValid()" class="btn btn-success">Tiếp tục</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
